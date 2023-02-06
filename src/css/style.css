@@ -16,6 +16,15 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
+body {
+  background-image: url("../img/Blue.jpg");
+  background-size: 100%;
+}
+
 .container {
   max-width: 1170px;
   width: 96%;
@@ -25,8 +34,8 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
   margin-bottom: 60px;
-  background-color: #fff;
 }
 .navbar-socials a {
   text-decoration: none;
@@ -38,12 +47,16 @@
   border-radius: 10px;
   font-family: "Museo Sans Bold", sans-serif;
   font-weight: 700;
+  cursor: pointer;
 }
 
-.main-text {
-  text-align: center;
-  font-size: 30px;
+.main {
+  display: flex;
+  flex-wrap: wrap;
 }
-.main-image {
-  width: 100%;
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
 }/*# sourceMappingURL=style.css.map */
