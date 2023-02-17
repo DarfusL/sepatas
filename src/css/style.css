@@ -35,19 +35,30 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 15px;
 }
 .navbar-socials a {
   text-decoration: none;
   margin-left: 20px;
 }
 
-.button {
-  padding: 4px 20px;
-  border-radius: 10px;
-  font-family: "Museo Sans Bold", sans-serif;
-  font-weight: 700;
-  cursor: pointer;
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 20px;
+  display: inline-block;
+}
+.menu a:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  transition: 0.2s;
+  width: 0%;
+}
+.menu a:hover:after {
+  width: 100%;
 }
 
 .main {
@@ -56,6 +67,7 @@ body {
 }
 
 .title {
+  margin-top: 20px;
   text-align: center;
   color: #fff;
   font-size: 80px;

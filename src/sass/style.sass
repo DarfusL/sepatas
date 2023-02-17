@@ -12,34 +12,55 @@ body
     max-width: 1170px
     width: 96%
     margin: auto
+
+      
 .navbar
     display: flex
     justify-content: space-between
     margin-top: 20px
-    margin-bottom: 60px
+    margin-bottom: 15px
     
    
     &-socials a
         text-decoration: none
         margin-left: 20px
-        
-        
 
-        
-.button
-    padding: 4px 20px
-    border-radius: 10px
-    +bold 
-    cursor: pointer
-
-         
+.menu
+    a 
+        text-decoration: none
+        color: #fff
+        margin-left: 40px
+        font-size: 20px
+        display: inline-block
+        &:after 
+            content: ''
+            display: block
+            height: 1px
+            background-color: #fff
+            transition: .2s
+            width: 0%
+        &:hover
+            &:after 
+                width: 100%  
+          
 .main
     display: flex
     flex-wrap: wrap
 .title
+    margin-top: 20px
     text-align: center
     color: #fff
     font-size: 80px
+
+
+
+
+            
+                
+                
+              
+            
+            
 
      
     
