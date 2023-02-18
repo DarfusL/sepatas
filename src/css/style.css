@@ -1,28 +1,15 @@
-@font-face {
-  font-family: "Museo Sans  Light";
-  src: url("../fonts/MuseoSansCyrl-300.eot");
-  src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Museo Sans  Bold";
-  src: url("../fonts/MuseoSansCyrl-700.eot");
-  src: url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl-700.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 * {
   box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
 }
 
 body {
   background-image: url("../img/Blue.jpg");
   background-size: 100%;
+  font-family: "Marcellus", sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
@@ -52,8 +39,8 @@ body {
 .menu a:after {
   content: "";
   display: block;
-  height: 1px;
-  background-color: #fff;
+  height: 2px;
+  background-color: #991794;
   transition: 0.2s;
   width: 0%;
 }
@@ -71,4 +58,25 @@ body {
   text-align: center;
   color: #fff;
   font-size: 80px;
+}
+
+.terminy-block {
+  display: flex;
+  justify-content: space-between;
+}
+.terminy a {
+  color: #fff;
+  font-size: 21px;
+}
+.terminy-slucenja {
+  width: 50%;
+}
+.terminy-title {
+  color: #991794;
+}
+.terminy-uzdravovani {
+  width: 50%;
+}
+.terminy-subtitle {
+  color: #991794;
 }/*# sourceMappingURL=style.css.map */
