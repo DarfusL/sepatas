@@ -1,0 +1,58 @@
+
+*
+    box-sizing: border-box
+   
+body
+    background-image: url("../img/warriors6.png") 
+    background-size: 100% 
+    font-family: 'Marcellus', sans-serif
+    
+img
+    max-width: 100%     
+    
+.container
+    max-width: 1170px
+    width: 96%
+    margin: auto
+.navbar
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+    margin-bottom: 15px
+    
+   
+    &-socials a
+        text-decoration: none
+        margin-left: 20px
+
+.menu
+    a 
+        text-decoration: none
+        color: #190b5f
+        margin-left: 40px
+        font-size: 20px
+        display: inline-block
+        &:after 
+            content: ''
+            display: block
+            height: 2px
+            background-color: #991794
+            transition: .2s
+            width: 0%
+        &:hover
+            &:after 
+                width: 100%  
+    
+.title
+    display: block
+    text-align: center
+    font-size: 45px
+    color: #020109
+.text
+    font-size: 25px
+    text-align: center
+
+
+       
+    
+
