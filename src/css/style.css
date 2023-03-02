@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url("../img/Blue.jpg") no-repeat;
+  background: url("../img/Blue.jpg");
   background-size: 100%;
   font-family: "Marcellus", sans-serif;
 }
@@ -38,7 +38,7 @@ img {
 }
 @media (max-width: 1000px) {
   .menu a {
-    font-size: 16px;
+    font-size: 12px;
     margin-left: 8px;
   }
 }
@@ -82,7 +82,7 @@ img {
     margin-top: -20px;
     margin-left: -15px;
     margin-right: -10px;
-    margin-bottom: -20px;
+    margin-bottom: -100px;
   }
 }
 .terminy-block {
