@@ -28,10 +28,13 @@ img
 .menu
     a 
         text-decoration: none
-        color: #190b5f
+        color: #000
         margin-left: 40px
         font-size: 20px
         display: inline-block
+        @media (max-width: 800px)
+            font-size: 12px
+            margin-left: 8px
         &:after 
             content: ''
             display: block
@@ -48,9 +51,13 @@ img
     text-align: center
     font-size: 45px
     color: #020109
+    @media (max-width: 800px)
+        font-size: 20px
 .text
     font-size: 25px
     text-align: center
+    @media (max-width: 800px)
+        font-size: 12px
 
 
        

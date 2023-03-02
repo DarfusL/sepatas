@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("../img/Blue.jpg");
+  background: url("../img/Blue.jpg") no-repeat;
   background-size: 100%;
   font-family: "Marcellus", sans-serif;
 }
@@ -36,6 +36,12 @@ img {
   font-size: 20px;
   display: inline-block;
 }
+@media (max-width: 1000px) {
+  .menu a {
+    font-size: 12px;
+    margin-left: 8px;
+  }
+}
 .menu a:after {
   content: "";
   display: block;
@@ -59,14 +65,43 @@ img {
   color: #fff;
   font-size: 80px;
 }
+@media (max-width: 1000px) {
+  .title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .title {
+    font-size: 30px;
+  }
+}
 
+@media (max-width: 680px) {
+  .terminy {
+    background-image: url("../img/pozadi-h-s3.jpeg");
+    margin-top: -20px;
+    margin-left: -15px;
+    margin-right: -10px;
+  }
+}
 .terminy-block {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 680px) {
+  .terminy-block {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .terminy a {
   color: #fff;
   font-size: 21px;
+}
+@media (max-width: 1000px) {
+  .terminy a {
+    font-size: 12px;
+  }
 }
 .terminy-slucenja {
   width: 50%;
@@ -74,9 +109,19 @@ img {
 .terminy-title {
   color: #991794;
 }
+@media (max-width: 1000px) {
+  .terminy-title {
+    font-size: 20px;
+  }
+}
 .terminy-uzdravovani {
   width: 50%;
 }
 .terminy-subtitle {
   color: #991794;
+}
+@media (max-width: 1000px) {
+  .terminy-subtitle {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
