@@ -31,14 +31,14 @@ img {
 
 .menu a {
   text-decoration: none;
-  color: #000;
+  color: #0a0a4a;
   margin-left: 40px;
   font-size: 20px;
   display: inline-block;
 }
 @media (max-width: 800px) {
   .menu a {
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 8px;
   }
 }
@@ -63,6 +63,8 @@ img {
 @media (max-width: 800px) {
   .title {
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -72,6 +74,6 @@ img {
 }
 @media (max-width: 800px) {
   .text {
-    font-size: 12px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
