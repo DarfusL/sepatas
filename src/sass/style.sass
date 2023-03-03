@@ -3,9 +3,11 @@
     box-sizing: border-box
 
 body   
-    background: url('../img/Blue.jpg') no-repeat
+    background: url('../img/Blue.jpg') 
     background-size: 100%
     font-family: 'Marcellus', sans-serif
+    @media (max-width: 1248px)
+        background-image: url('../img/pozadi-h-s4.jpeg')
    
 img
     max-width: 100%          
@@ -34,9 +36,20 @@ img
         margin-left: 40px
         font-size: 20px
         display: inline-block
-        @media (max-width: 1000px)
-            font-size: 12px
-            margin-left: 8px         
+        &-weby 
+            display: block
+        @media (max-width: 1120px)
+            font-size: 18px
+            margin-left: 20px
+        @media (max-width: 910px)  
+            font-size: 15px
+            margin-left: 10px              
+        @media (max-width: 392px)
+            font-size: 13px
+            margin-left: 8px
+        @media (max-width: 338px)  
+            font-size: 12px  
+
         &:after 
             content: ''
             display: block
@@ -56,49 +69,69 @@ img
     text-align: center
     color: #fff
     font-size: 80px
-    @media (max-width: 1000px)
-        font-size: 40px
-        margin-bottom: 25px
+    @media (max-width: 1120px) 
+        font-size: 50px
+    @media (max-width: 910px)
+        font-size: 30px            
     @media (max-width: 400px)  
         font-size: 30px  
             
 .terminy    
-    @media (max-width: 680px)
-        background-image: url('../img/pozadi-h-s4.jpeg') 
-        margin-top: -25px
-        margin-left: -15px
-        margin-right: -10px
-        margin-bottom: -100px
     &-block 
         display: flex
-        justify-content: space-between
-        @media (max-width: 680px)
+        justify-content: space-between        
+        @media (max-width: 757px)
             flex-direction: column
             text-align: center
     a
 
         color: #fff
         font-size: 21px        
-        @media (max-width: 1000px)
-            font-size: 15px
+        @media (max-width: 1120px)
+            font-size: 18px 
+        @media (max-width: 910px)
+            font-size: 15px       
             
     span
         color:#bc2323 
-        font-size: 20px 
-        @media (max-width: 1000px)
-            font-size: 14px          
-    &-slucenja
-        width: 50%
+        font-size: 21px 
+        @media (max-width: 1120px)
+            font-size: 18px  
+        @media (max-width: 910px)
+            font-size: 15px                      
+    &__slucenja
+        width: 50%        
     &-title
         color: #991794
-        @media (max-width: 1000px)
-            font-size: 20px
-    &-uzdravovani
+        margin-bottom: 30px
+        @media (max-width: 1120px)
+            font-size: 18px 
+        @media (max-width: 910px)
+            font-size: 15px               
+    &__uzdravovani
         width: 50%    
     &-subtitle
         color: #991794 
-        @media (max-width: 1000px)
-            font-size: 20px
+        margin-bottom: 30px
+        @media (max-width: 1120px)
+            font-size: 18px
+        @media (max-width: 910px)
+            font-size: 15px
+.footer    
+    color: #fff
+    text-align: left
+    font-size: 12px
+    margin-top: 150px 
+    @media (max-width: 910px)
+        font-size: 10px  
+    a
+        color: #fff
+        text-decoration: none
+        font-size: 12px
+        @media (max-width: 910px)
+            font-size: 10px
+       
+            
 
 
    
