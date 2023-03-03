@@ -65,6 +65,7 @@ img {
 @media (max-width: 338px) {
   .menu a {
     font-size: 12px;
+    margin-left: 5px;
   }
 }
 .menu a:after {
