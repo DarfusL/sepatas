@@ -1,0 +1,88 @@
+
+*
+    box-sizing: border-box
+   
+body
+    background-image: url("../img/warriors7.jpg") 
+    background-size: 100% 
+    font-family: 'Marcellus', sans-serif
+    
+img
+    max-width: 100%     
+    
+.container
+    max-width: 1170px
+    width: 96%
+    margin: auto
+.navbar
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+    margin-bottom: 15px
+    
+   
+    &-socials a
+        text-decoration: none
+        margin-left: 20px
+
+.menu
+    a 
+        text-decoration: none
+        color: #171772
+        margin-left: 40px
+        font-size: 20px
+        display: inline-block
+        @media (max-width: 1120px)
+            font-size: 18px
+            margin-left: 20px
+        @media (max-width: 910px)  
+            font-size: 15px
+            margin-left: 10px              
+        @media (max-width: 392px)
+            font-size: 13px
+            margin-left: 8px
+        @media (max-width: 338px)  
+            font-size: 12px 
+            margin-left: 5px 
+        &:after 
+            content: ''
+            display: block
+            height: 2px
+            background-color: #991794
+            transition: .2s
+            width: 0%
+        &:hover
+            &:after 
+                width: 100%  
+    
+.title
+    display: block
+    text-align: center
+    font-size: 38px
+    color: #020109
+    @media (max-width: 1120px)
+        font-size: 20px
+        margin-top: 20px
+        margin-bottom: 20px
+.text
+    font-size: 23px
+    text-align: center
+    @media (max-width: 1120px)
+        font-size: 15px
+.footer    
+    color: #000
+    text-align: left
+    font-size: 12px
+    margin-top: 150px 
+    @media (max-width: 910px)
+        font-size: 10px  
+    a
+        color: #000
+        text-decoration: none
+        font-size: 12px
+        @media (max-width: 910px)
+            font-size: 10px
+
+       
+    
+

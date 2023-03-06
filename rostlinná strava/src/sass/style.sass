@@ -1,0 +1,214 @@
+*
+    box-sizing: border-box
+
+body 
+    background-image: url("../img/pozadi.jpg")    
+    background-size: 100%
+    font-family: 'Marcellus', sans-serif
+img
+    max-width: 100%          
+
+.container
+    max-width: 1170px
+    width: 96%
+    margin: auto
+
+      
+.navbar
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+    margin-bottom: 15px
+    
+   
+    &-socials a
+        text-decoration: none
+        margin-left: 20px
+
+.menu
+    a 
+        text-decoration: none
+        color:#171772
+        margin-left: 40px
+        font-size: 20px
+        display: inline-block
+        @media (max-width: 1120px)
+            font-size: 18px
+            margin-left: 20px
+        @media (max-width: 910px)  
+            font-size: 15px
+            margin-left: 10px              
+        @media (max-width: 720px)
+            font-size: 13px
+            margin-left: 8px
+        @media (max-width: 338px)  
+            font-size: 12px 
+            margin-left: 5px  
+                    
+            
+        &:after 
+            content: ''
+            display: block
+            height: 2px
+            background-color: #991794
+            transition: .2s
+            width: 0%
+        &:hover
+            &:after 
+                width: 100%  
+.rostlinna
+    &-block 
+        display: flex
+        justify-content: space-between
+        padding-top: 70px
+        align-items: center
+        @media (max-width: 1120px)
+            padding-top: 20px
+        @media (max-width: 720px)            
+            flex-direction: column   
+    &-text
+        flex-basis: 50%
+        &__title
+            font-size: 40px
+            margin-bottom: 60px
+            @media (max-width: 1120px)
+                font-size: 20px
+                margin-bottom: 20px
+                margin-top: 30px
+
+        &__subtitle
+            font-size: 22px 
+            @media (max-width: 1120px)
+                font-size: 16px
+                margin-bottom: -5px
+
+    &-image 
+        max-width: 357px
+        margin-left: 90px
+        @media (max-width: 1120px)
+            margin-top: 20px
+            margin-right: 20px
+            margin-left: 20px
+            max-width: 220px
+
+
+.zivocisna
+    &-text
+        padding-top: 50px
+        @media (max-width: 1120px)
+            padding-top: 10px
+        &__title
+            font-size: 34px
+            margin-bottom: 38px
+            @media (max-width: 1120px)
+                font-size: 20px
+                margin-bottom: 20px                
+        &__subtitle
+            font-size: 19px 
+            @media (max-width: 1120px)
+                font-size: 16px 
+                margin-bottom: -5px   
+.napojení
+    &-text
+        padding-top: 10px
+        &__title
+            font-size: 34px
+            margin-bottom: 38px
+            @media (max-width: 1120px)
+                font-size: 20px
+                margin-bottom: 20px
+        &__subtitle
+            font-size: 19px 
+            @media (max-width: 1120px)
+                font-size: 16px
+.jíst
+    &-block 
+        display: flex
+        justify-content: space-between
+        padding-top: 28px
+        align-items: center 
+        @media (max-width: 720px)            
+            flex-direction: column-reverse          
+    &-text
+        flex-basis: 50%
+        &__title
+            font-size: 35px
+            margin-bottom: 40px
+            @media (max-width: 1120px)
+                font-size: 20px
+                margin-bottom: 20px
+                margin-top: 30px
+        &__subtitle
+            font-size: 20px  
+            @media (max-width: 1120px)
+                font-size: 16px 
+                margin-bottom: -5px 
+    &-image 
+        max-width: 360px
+        margin-left: 90px
+        margin-top: 25px
+        @media (max-width: 1120px)
+            max-width: 235px
+            margin: auto
+          
+.příklad
+    &-text
+        padding-top: 10px
+        &__title
+            font-size: 34px
+            margin-bottom: 38px
+            @media (max-width: 1120px)
+                font-size: 20px
+                margin-bottom: 20px
+        &__subtitle
+            font-size: 19px 
+            @media (max-width: 1120px)
+                font-size: 16px
+        &__image 
+            align-items: center  
+            margin-top: 39px 
+            @media (max-width: 1120px)
+                margin-top: 20px         
+        &__vody
+            font-size: 19px 
+            margin-top: 40px  
+            @media (max-width: 1120px)
+                font-size: 16px 
+                margin-top: 20px 
+        &__citit
+            font-size: 19px
+            margin-top: 50px
+            @media (max-width: 1120px)
+                font-size: 16px
+                margin-top: 20px
+        &__odkaz
+            margin-top: 20px
+            @media (max-width: 1120px)
+                margin-top: 10px
+            a
+                text-decoration: none
+                display: grid            
+                font-size: 19px
+                margin-bottom: 20px
+                @media (max-width: 1120px)
+                    font-size: 16px
+                    
+            span
+                font-size: 19px
+                @media (max-width: 1120px)
+                    font-size: 16px
+.footer    
+    color: #000
+    text-align: left
+    font-size: 12px
+    margin-top: 150px 
+    @media (max-width: 910px)
+        font-size: 10px  
+    a
+        color: #000
+        text-decoration: none
+        font-size: 12px
+        @media (max-width: 910px)
+            font-size: 10px                  
+            
+                

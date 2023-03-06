@@ -3,14 +3,9 @@
 }
 
 body {
-  background: url("../img/Blue.jpg");
+  background-image: url("../img/warriors7.jpg");
   background-size: 100%;
   font-family: "Marcellus", sans-serif;
-}
-@media (max-width: 1248px) {
-  body {
-    background-image: url("../img/pozadi-h-s4.jpeg");
-  }
 }
 
 img {
@@ -36,7 +31,7 @@ img {
 
 .menu a {
   text-decoration: none;
-  color: #fff;
+  color: #171772;
   margin-left: 40px;
   font-size: 20px;
   display: inline-block;
@@ -77,108 +72,32 @@ img {
   width: 100%;
 }
 
-.main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .title {
-  margin-top: 20px;
+  display: block;
   text-align: center;
-  color: #fff;
-  font-size: 80px;
+  font-size: 38px;
+  color: #020109;
 }
 @media (max-width: 1120px) {
   .title {
-    font-size: 50px;
-  }
-}
-@media (max-width: 910px) {
-  .title {
-    font-size: 30px;
-  }
-}
-@media (max-width: 400px) {
-  .title {
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
-.terminy-block {
-  display: flex;
-  justify-content: space-between;
-}
-@media (max-width: 757px) {
-  .terminy-block {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-.terminy a {
-  color: #fff;
-  font-size: 21px;
+.text {
+  font-size: 23px;
+  text-align: center;
 }
 @media (max-width: 1120px) {
-  .terminy a {
-    font-size: 18px;
-  }
-}
-@media (max-width: 910px) {
-  .terminy a {
-    font-size: 15px;
-  }
-}
-.terminy span {
-  color: #bc2323;
-  font-size: 21px;
-}
-@media (max-width: 1120px) {
-  .terminy span {
-    font-size: 18px;
-  }
-}
-@media (max-width: 910px) {
-  .terminy span {
-    font-size: 15px;
-  }
-}
-.terminy__slucenja {
-  width: 50%;
-}
-.terminy-title {
-  color: #991794;
-  margin-bottom: 30px;
-}
-@media (max-width: 1120px) {
-  .terminy-title {
-    font-size: 18px;
-  }
-}
-@media (max-width: 910px) {
-  .terminy-title {
-    font-size: 15px;
-  }
-}
-.terminy__uzdravovani {
-  width: 50%;
-}
-.terminy-subtitle {
-  color: #991794;
-  margin-bottom: 30px;
-}
-@media (max-width: 1120px) {
-  .terminy-subtitle {
-    font-size: 18px;
-  }
-}
-@media (max-width: 910px) {
-  .terminy-subtitle {
+  .text {
     font-size: 15px;
   }
 }
 
 .footer {
-  color: #fff;
+  color: #000;
   text-align: left;
   font-size: 12px;
   margin-top: 150px;
@@ -189,7 +108,7 @@ img {
   }
 }
 .footer a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-size: 12px;
 }
