@@ -83,6 +83,7 @@ img {
 .uvod-title {
   text-align: center;
   margin-bottom: 50px;
+  font-size: 34px;
 }
 @media (max-width: 806px) {
   .uvod-title {
