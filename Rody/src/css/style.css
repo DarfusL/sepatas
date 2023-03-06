@@ -74,8 +74,9 @@ img {
 
 h1 {
   color: #f00c0c;
-  font-size: 40px;
+  font-size: 34px;
   text-align: center;
+  margin-top: 70px;
 }
 @media (max-width: 1120px) {
   h1 {
